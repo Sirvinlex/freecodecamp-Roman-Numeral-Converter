@@ -13,7 +13,7 @@ function App() {
   const handleSubmit = (e) =>{
     e.preventDefault();
     const myNum = Number(value);
-    if (myNum === '' || myNum === 0 || !myNum) alert('Please enter a valid Number')
+    if (!myNum) alert('Please enter a valid Number')
     else{
       setResult(convertToRoman(myNum))
     }
