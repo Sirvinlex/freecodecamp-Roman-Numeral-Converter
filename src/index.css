@@ -1,0 +1,94 @@
+body {
+  background-color: #c1fdfd;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.title{
+  font-size: 23px;
+  font-weight: 600;
+}
+.display-div p{
+  height: 3rem;
+  line-height: 3rem;
+}
+.display-div{
+  text-align: center;
+  height: 50px;
+  width: 95%;
+  /* border: 2px solid black; */
+  background-color: white;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 120px;
+}
+.submit-btn{
+  width: 96%;
+  height: 30px;
+  color: white;
+  border: none;
+  background-color: blue;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.input{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 95%;
+  height: 30px;
+  /* color: white; */
+  border: none;
+}
+@media only screen and (min-width: 600px) {
+  .title{
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+  }
+  .submit-btn{
+    width: 81%;
+  }
+  .input{
+    width: 80%;
+  }
+  .display-div{
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .submit-btn{
+    width: 71%;
+  }
+  .input{
+    width: 70%;
+  }
+  .display-div{
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .submit-btn{
+    width: 40.5%;
+  }
+  .input{
+    width: 40%;
+  }
+  .display-div{
+    width: 40%;
+  }
+}

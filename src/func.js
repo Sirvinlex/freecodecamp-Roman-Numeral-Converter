@@ -40,7 +40,7 @@ function myFun41_49 (myNum, myArr=[]){
     myFun1_9(myNum, myArr)
 }
 function myFun1_100 (num, myNum, myArr=[]){
-  let arr11_13 =[]
+  // let arr11_13 =[]
     if (num < 10){
     myFun1_9(num, myArr)
   }
@@ -152,7 +152,7 @@ function myFun1_1000 (num, myNum, myArr=[]){
   }
 }
 
-function convertToRoman(num) {
+export function convertToRoman(num) {
   let myArr = [];
   
   let myNum = num;
